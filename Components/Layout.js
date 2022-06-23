@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import Head from "next/head";
 import NextLink from "next/link";
-import classes from "../../Utils/Classes";
+import classes from "../Utils/Classes";
 
 export default function Layout({ title, description, children }) {
 	const theme = createTheme({
